@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		184C34E726D6304800AF8DAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C34E626D6304800AF8DAA /* AppDelegate.swift */; };
 		184C34E926D6304800AF8DAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C34E826D6304800AF8DAA /* SceneDelegate.swift */; };
-		184C34EB26D6304800AF8DAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C34EA26D6304800AF8DAA /* ViewController.swift */; };
+		184C34EB26D6304800AF8DAA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C34EA26D6304800AF8DAA /* LoginViewController.swift */; };
 		184C34EE26D6304800AF8DAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184C34EC26D6304800AF8DAA /* Main.storyboard */; };
 		184C34F026D6304B00AF8DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184C34EF26D6304B00AF8DAA /* Assets.xcassets */; };
 		184C34F326D6304B00AF8DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184C34F126D6304B00AF8DAA /* LaunchScreen.storyboard */; };
+		18B2630A26D69AED000C8CA7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B2630926D69AED000C8CA7 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		184C34E326D6304700AF8DAA /* HomeWork3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184C34E626D6304800AF8DAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184C34E826D6304800AF8DAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		184C34EA26D6304800AF8DAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		184C34EA26D6304800AF8DAA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		184C34ED26D6304800AF8DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		184C34EF26D6304B00AF8DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184C34F226D6304B00AF8DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184C34F426D6304B00AF8DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B2630926D69AED000C8CA7 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = ../WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				184C34E626D6304800AF8DAA /* AppDelegate.swift */,
 				184C34E826D6304800AF8DAA /* SceneDelegate.swift */,
-				184C34EA26D6304800AF8DAA /* ViewController.swift */,
+				184C34EA26D6304800AF8DAA /* LoginViewController.swift */,
+				18B2630926D69AED000C8CA7 /* WelcomeViewController.swift */,
 				184C34EC26D6304800AF8DAA /* Main.storyboard */,
 				184C34EF26D6304B00AF8DAA /* Assets.xcassets */,
 				184C34F126D6304B00AF8DAA /* LaunchScreen.storyboard */,
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184C34EB26D6304800AF8DAA /* ViewController.swift in Sources */,
+				184C34EB26D6304800AF8DAA /* LoginViewController.swift in Sources */,
+				18B2630A26D69AED000C8CA7 /* WelcomeViewController.swift in Sources */,
 				184C34E726D6304800AF8DAA /* AppDelegate.swift in Sources */,
 				184C34E926D6304800AF8DAA /* SceneDelegate.swift in Sources */,
 			);
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = KY.HomeWork3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = KY.HomeWork3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
